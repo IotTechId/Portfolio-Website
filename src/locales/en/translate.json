@@ -1,0 +1,38 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "project": "Projects",
+    "contacts": "Contact"
+  },
+  "hero": {
+    "quote": "No one will help you when you're down, except yourself.",
+    "title": "Hi, I'm Satria Yudha Purnomo",
+    "description": "I'm a Tech Generalist with a passion for web development, mobile development, and IoT. I enjoy exploring new technologies and believe that technology can make the world a better place.",
+    "download_resume": "Download Resume",
+    "see_projects": "View Projects"
+  },
+  "about": {
+    "description": "Hi, I'm Satria Yudha Purnomo, a Tech Generalist specializing in web development, mobile development, and IoT. I believe that good design and functionality are key to creating successful products. I'm always eager to learn new technologies and apply them to my projects.",
+    "projects_done": "Projects Completed",
+    "years_experience": "Years of Experience",
+    "tools_title": "Tools I Use",
+    "tools_description": "Here are some tools I frequently use"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "My Projects",
+    "see_more": "See More"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's Connect",
+    "full_name": "Full Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "placeholder_name": "Enter your name",
+    "placeholder_email": "Enter your email",
+    "placeholder_message": "Your message"
+  }
+}

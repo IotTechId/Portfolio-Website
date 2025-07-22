@@ -1,0 +1,38 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "project": "Proyek",
+    "contacts": "Kontak"
+  },
+  "hero": {
+    "quote": "Tak ada yang akan menolongmu saat kau jatuh, kecuali dirimu sendiri",
+    "title": "Hai, saya Satria Yudha Purnomo",
+    "description": "Saya adalah seorang Tech Generalist yang hobi web development, mobile development, dan IoT. Saya juga suka belajar teknologi baru. Saya percaya bahwa teknologi dapat mengubah dunia menjadi lebih baik.",
+    "download_resume": "Unduh Resume",
+    "see_projects": "Lihat Proyek"
+  },
+  "about": {
+    "description": "Hi, perkenalkan saya Satria Yudha Purnomo, seorang Tech Generalist dalam bidang web development, mobile development, dan IoT. Saya yakin bahwa skill design dan fungsionalitas yang baik adalah kunci untuk menciptakan produk yang sukses. Saya selalu berusaha untuk belajar teknologi baru dan menerapkannya dalam proyek saya.",
+    "projects_done": "Proyek Selesai",
+    "years_experience": "Tahun Pengalaman",
+    "tools_title": "Alat yang Digunakan",
+    "tools_description": "Berikut ini adalah alat yang sering saya gunakan"
+  },
+  "projects": {
+    "title": "Proyek",
+    "subtitle": "Proyek Saya",
+    "see_more": "Lihat Selengkapnya"
+  },
+  "contact": {
+    "title": "Kontak",
+    "subtitle": "Mari Terhubung",
+    "full_name": "Nama Lengkap",
+    "email": "Surel",
+    "message": "Pesan",
+    "send": "Kirim Pesan",
+    "placeholder_name": "Masukkan Nama",
+    "placeholder_email": "Masukkan Email",
+    "placeholder_message": "Pesan Anda"
+  }
+}

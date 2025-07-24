@@ -1,6 +1,7 @@
 import DataImage from "./data";
 import { listTools } from "./data";
 import { listProyek } from "./data";
+import Skill from "./components/Skill.jsx";
 import { useTranslation } from "react-i18next";
 
 function App() {
@@ -13,7 +14,6 @@ function App() {
   return (
     <>
       {/* Language Switcher */}
-
       <div className="hero grid lg:grid-cols-2 items-center xl:gap-[15rem] gap-6 sm:grid-cols-1 pt-6 xl:pt-0">
         <div className="animate__animated animate__fadeInUp animate__delay-3s gap-3">
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
@@ -49,13 +49,11 @@ function App() {
           src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortRound&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=Twinkle&skinColor=Tanned"
         />
       </div>
-
       {/* About */}
       <div className="About mt-32 py-10" id="about">
         <div
           className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg"
           data-aos="fade-up"
-          data-aos-once="true"
         >
           <p className="text-base/loose mb-10 opacity-50">
             {t("about.description")}
@@ -84,17 +82,16 @@ function App() {
           </div>
         </div>
 
-        <div className="tools mt-32 ">
+        <div id="about" className="tools mt-32 ">
           <h1
-            className="text-4xl/snug font-bold mb-4"
+            className="text-4xl/snug font-bold mb-4 text-center"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="300"
-            data-aos-once="true"
           >
             {t("about.tools_title")}
           </h1>
-          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50">
+          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50 text-center mx-auto">
             {t("about.tools_description")}
           </p>
           <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
@@ -105,7 +102,6 @@ function App() {
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay={tool.dad}
-                data-aos-once="true"
               >
                 <img
                   src={tool.gambar}
@@ -122,7 +118,9 @@ function App() {
           </div>
         </div>
       </div>
-
+      {/* Skills */}
+      <Skill />
+      {/* Skills */}
       {/* Projects */}
       <div className="projects mt-32 py-10" id="projects">
         <h1
@@ -130,7 +128,6 @@ function App() {
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="300"
-          data-aos-once="true"
         >
           {t("projects.title")}
         </h1>
@@ -145,7 +142,6 @@ function App() {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay={proyek.dad}
-              data-aos-once="true"
             >
               <img src={proyek.gambar} alt="proyek-images" loading="lazy" />
               <div>
@@ -174,14 +170,12 @@ function App() {
           ))}
         </div>
       </div>
-
       {/* Contact */}
       <div className="kontak mt-32 sm:p-10 p-0" id="contact">
         <h1
           className="text-4-xl mb-2 font-bold text-center"
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-once="true"
         >
           {t("contact.title")}
         </h1>
@@ -190,7 +184,6 @@ function App() {
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="300"
-          data-aos-once="true"
         >
           {t("contact.subtitle")}
         </p>
@@ -200,7 +193,6 @@ function App() {
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="500"
-          data-aos-once="true"
         >
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">

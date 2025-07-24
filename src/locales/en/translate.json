@@ -5,6 +5,9 @@
     "project": "Projects",
     "contacts": "Contact"
   },
+  "Skill": {
+    "tittle": "My Skills"
+  },
   "hero": {
     "quote": "No one will help you when you're down, except yourself.",
     "title": "Hi, I'm Satria Yudha Purnomo",

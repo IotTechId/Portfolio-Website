@@ -1,6 +1,7 @@
 import DataImage from "./data";
 import { listTools } from "./data";
 import { listProyek } from "./data";
+import { listLabs } from "./data";
 import Skill from "./components/Skill.jsx";
 import { useTranslation } from "react-i18next";
 
@@ -118,9 +119,11 @@ function App() {
           </div>
         </div>
       </div>
+
       {/* Skills */}
       <Skill />
       {/* Skills */}
+
       {/* Projects */}
       <div className="projects mt-32 py-10" id="projects">
         <h1
@@ -170,6 +173,49 @@ function App() {
           ))}
         </div>
       </div>
+
+      {/* Labs */}
+      <div className="projects mt-32 py-10" id="labs">
+        <h1
+          className="text-center text-4-xl font-bold mb-2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          {t("labs.title")}
+        </h1>
+        <p className="text-base/loose text-center opacity-50">
+          {t("labs.subtitle")}
+        </p>
+        <div className="projects-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+          {listLabs.map((labs) => (
+            <div
+              key={labs.id}
+              className="project-item p-4 bg-zinc-800 rounded-lg flex flex-col"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay={labs.dad}
+            >
+              <img src={labs.gambar} alt={labs.nama} loading="lazy" />
+              <div className="flex flex-col flex-1">
+                <h1 className="text-2xl font-bold my-4">{labs.nama}</h1>
+                <p className="text-base/loose mb-4 flex-1">{labs.desk}</p>
+                <div className="mt-auto text-center">
+                  <a
+                    className="bg-violet-800 p-4 rounded-lg block border border-zinc-600 hover:bg-violet-500"
+                    href={labs.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {t("labs.see_more")}
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* Contact */}
       <div className="kontak mt-32 sm:p-10 p-0" id="contact">
         <h1

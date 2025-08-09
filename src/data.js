@@ -111,3 +111,34 @@ export const listProyek = [
     dad: "300",
   },
 ];
+
+import jupyterhub from "/assets/labs/jupyterhub.png";
+import gns3 from "/assets/labs/gns3.png";
+import cyberchef from "/assets/labs/cyberchef.png";
+
+export const listLabs = [
+  {
+    id: 1,
+    gambar: jupyterhub,
+    nama: "JupyterHub",
+    desk: "Platform untuk menjalankan notebook Jupyter secara terpusat",
+    dad: "100",
+    link: "jupyter/",
+  },
+  {
+    id: 2,
+    gambar: gns3,
+    nama: "GNS3",
+    desk: "Simulator jaringan yang memungkinkan pengguna untuk merancang dan menguji topologi jaringan",
+    dad: "200",
+    link: "gns3/",
+  },
+  {
+    id: 3,
+    gambar: cyberchef,
+    nama: "CyberChef",
+    desk: "Alat untuk analisis data, enkripsi, dan dekripsi",
+    dad: "300",
+    link: "cyberchef/",
+  },
+];

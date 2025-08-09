@@ -66,6 +66,11 @@ const Navbar = () => {
           </a>
         </li>
         <li>
+          <a href="#labs" className="sm:text-lg text-base font-medium">
+            {t("Labs")}
+          </a>
+        </li>
+        <li>
           <a href="#contact" className="sm:text-lg text-base font-medium">
             {t("navbar.contacts")}
           </a>

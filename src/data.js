@@ -97,16 +97,16 @@ export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Website Sekolah",
-    desk: "Website Sekolah SD N 2 Saranjana dengan CMS Sekolahku",
+    nama: "projects.project1.name",
+    desk: "projects.project1.description", // key translator
     tools: ["HTML", "CSS", "PHP", "MySQL"],
     dad: "200",
   },
   {
     id: 2,
     gambar: Proyek2,
-    nama: "Aplikasi Gas Detector",
-    desk: "Aplikasi Pendeteksi Gas Berbahaya dengan menggunakan ESP8266 dan MQ-2",
+    nama: "projects.project2.name",
+    desk: "projects.project2.description", // key translator
     tools: ["Dart", "Flutter"],
     dad: "300",
   },

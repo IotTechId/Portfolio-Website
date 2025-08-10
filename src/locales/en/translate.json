@@ -23,6 +23,14 @@
     "tools_description": "Here are some tools I frequently use"
   },
   "projects": {
+    "project1": {
+      "name": "School Website",
+      "description": "Development of SD Negeri 2 Saranjana website with Sekolahku CMS, responsive layout, and simple school management features."
+    },
+    "project2": {
+      "name": "Hazardous Gas Detector App",
+      "description": "A real-time gas monitoring app that detects LPG, methane, and smoke using MQ-2, with ESP8266 sending alerts via Application for improved safety"
+    },
     "title": "Projects",
     "subtitle": "My Projects",
     "see_more": "See More"

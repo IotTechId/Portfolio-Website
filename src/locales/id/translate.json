@@ -39,6 +39,14 @@
   },
 
   "projects": {
+    "project1": {
+      "name": "Website Sekolah",
+      "description": "Pengembangan website SD Negeri 2 Saranjana dengan Sekolahku CMS, layout responsif, dan fitur manajemen sekolah sederhana."
+    },
+    "project2": {
+      "name": "Aplikasi Pendeteksi Gas Berbahaya",
+      "description": "Aplikasi pemantau gas real-time yang mendeteksi LPG, metana, dan asap menggunakan MQ-2, dengan ESP8266 mengirimkan peringatan keselamatan."
+    },
     "title": "Proyek",
     "subtitle": "Proyek Saya",
     "see_more": "Lihat Selengkapnya"

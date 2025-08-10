@@ -147,9 +147,9 @@ function App() {
               data-aos-delay={proyek.dad}
             >
               <img src={proyek.gambar} alt="proyek-images" loading="lazy" />
-              <div>
-                <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
-                <p className="text-base/loose mb-4">{proyek.desk}</p>
+              <div className="flex flex-col h-full">
+                <h1 className="text-2xl font-bold my-4">{t(proyek.nama)}</h1>
+                <p className="text-base/loose mb-4">{t(proyek.desk)}</p>
                 <div className="flex flex-wrap gap-2">
                   {proyek.tools.map((tools, index) => (
                     <p

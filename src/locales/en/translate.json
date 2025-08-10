@@ -27,6 +27,22 @@
     "subtitle": "My Projects",
     "see_more": "See More"
   },
+
+  "labs": {
+    "title": "Labs",
+    "subtitle": "Our Labs",
+    "see_more": "See More",
+    "jupyterhub": {
+      "desk": "Platform for running Jupyter notebooks centrally"
+    },
+    "gns3": {
+      "desk": "A network simulator that allows users to design and test network topologies"
+    },
+    "cyberchef": {
+      "desk": "A tool for data analysis, encryption, and decryption"
+    }
+  },
+
   "contact": {
     "title": "Contact",
     "subtitle": "Let's Connect",

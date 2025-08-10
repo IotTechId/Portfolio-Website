@@ -199,7 +199,7 @@ function App() {
               <img src={labs.gambar} alt={labs.nama} loading="lazy" />
               <div className="flex flex-col flex-1">
                 <h1 className="text-2xl font-bold my-4">{labs.nama}</h1>
-                <p className="text-base/loose mb-4 flex-1">{labs.desk}</p>
+                <p className="text-base/loose mb-4 flex-1">{t(labs.desk)}</p>
                 <div className="mt-auto text-center">
                   <a
                     className="bg-violet-800 p-4 rounded-lg block border border-zinc-600 hover:bg-violet-500"

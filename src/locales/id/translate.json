@@ -22,11 +22,28 @@
     "tools_title": "Alat yang Digunakan",
     "tools_description": "Berikut ini adalah alat yang sering saya gunakan"
   },
+
+  "labs": {
+    "title": "Labs",
+    "subtitle": "Labs Kami",
+    "see_more": "Lihat Selengkapnya",
+    "jupyterhub": {
+      "desk": "Platform untuk menjalankan notebook Jupyter secara terpusat"
+    },
+    "gns3": {
+      "desk": "Simulator jaringan yang memungkinkan pengguna untuk merancang dan menguji topologi jaringan"
+    },
+    "cyberchef": {
+      "desk": "Alat untuk analisis data, enkripsi, dan dekripsi"
+    }
+  },
+
   "projects": {
     "title": "Proyek",
     "subtitle": "Proyek Saya",
     "see_more": "Lihat Selengkapnya"
   },
+
   "contact": {
     "title": "Kontak",
     "subtitle": "Mari Terhubung",
